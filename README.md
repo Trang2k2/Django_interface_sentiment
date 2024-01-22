@@ -1,41 +1,5 @@
-# [Django Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/django/)
-
-Open-source **[Django Dashboard](https://appseed.us/admin-dashboards/django/)** crafted on top of **Soft UI Dashboard**, an open-source `Bootstrap 5` design from `Creative-Tim`.
-Designed for those who like bold elements and beautiful websites. Made of hundreds of elements, designed blocks and fully coded pages, `Soft UI Dashboard` is ready to help you create stunning websites and web apps.
-
-- 👉 [Django Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/django/) - `Product page`
-- 👉 [Django Soft Dashboard](https://django-soft-dash.onrender.com) - `LIVE Demo`
-
---- 
-
-## 🚀 **[Black Friday Campaign](https://appseed.us/)** is LIVE: `65%Off`
-
-> `React`, `Django`, `Flask`, and `NodeJs` starters crafted and actively supported by **AppSeed**
- 
-[![](https://github-production-user-asset-6210df.s3.amazonaws.com/51070104/280080081-1e7c91c0-612f-4418-81e7-34c363378479.jpg)](https://appseed.us/)
-
-<br />
-
-## Features
-
-> `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
-
-| Free Version                          | [PRO Version](https://appseed.us/product/soft-ui-dashboard-pro/django/)    | 🚀 Custom - $1999 (plus VAT)         |  
-| --------------------------------------| --------------------------------------| --------------------------------------|
-| ✓ **Django 4.1.12**                   | **Everything in Free**, plus:                                        | **Everything in PRO**, plus:       |
-| ✓ Best Practices                      | ✅ **Premium Bootstrap Design**                                      | ✅ **1mo Custom Development**     | 
-| ✓ `Bootstrap 5`, Soft Dashboard UI    | ✅ `OAuth` Google, GitHub                                            | ✅ **Dedicated Developer**        |
-| ✓ `Docker`                            | ✅ `Extended User Model`                                             | ✅ Weekly Sprints                 |
-| ✓ `CI/CD` Flow via Render             | ✅ `Private REPO Access`                                             | ✅ Technical SPECS                |
-| ✓ `Free Support`                      | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)  | ✅ Documentation                  |
-| -                                     | ✅ Deployment Assistance                                             | ✅ **30 days Delivery Warranty**  |
-| ------------------------------------  | ------------------------------------                                  | ------------------------------------|
-| ✓ [LIVE Demo](https://django-soft-dash.onrender.com/)  | 🚀 [LIVE Demo](https://django-soft-dash-pro.onrender.com/) | 🛒 `Order`: **[$1999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |   
-
-
-![Django Admin Soft - Template project for Django provided by AppSeed.](https://user-images.githubusercontent.com/51070104/215729207-5cce250e-54da-4712-89a9-c1fd6b0a149e.png)
-
-<br />
+## Shopee Food Sentiment Predicts
+![Interface Predictor](templates/layouts/interface.png) 
 
 ## Manual Build 
 
@@ -97,6 +61,9 @@ The project is coded using a simple and intuitive structure presented below:
    |    |-- urls.py       # Project Routing
    |
    |-- home/
+   |    |-- models/        #saved model 
+   |    |-- forms.py      # form to input the cmt
+   |    |-- sentiment_predictor.py #the pretrain data => predict
    |    |-- views.py      # APP Views 
    |    |-- urls.py       # APP Routing
    |    |-- models.py     # APP Models 
@@ -122,63 +89,3 @@ The project is coded using a simple and intuitive structure presented below:
 
 <br />
 
-## Recompile SCSS  
-
-The SCSS/CSS files used to style the Ui are saved in the `static` directory. 
-In order to update the Ui colors (primary, secondary) this procedure needs to be followed. 
-
-```bash
-$ yarn                                             # install modules
-$ vi static/scss/soft-ui-dashboard/_variables.scss # edit variables 
-$ gulp                                             # SCSS to CSS translation
-```
-
-The `_variables.scss` content defines the `primary` and `secondary` colors: 
-
-```scss
-$primary:       #cb0c9f !default;   // EDIT for customization 
-$secondary:     #8392AB !default;   // EDIT for customization 
-$info:          #17c1e8 !default;   // EDIT for customization 
-$success:       #82d616 !default;   // EDIT for customization 
-$warning:       #fbcf33 !default;   // EDIT for customization 
-$danger:        #ea0606 !default;   // EDIT for customization 
-```
-
-<br />
-
-## Deploy on [Render](https://render.com/)
-
-- Create a Blueprint instance
-  - Go to https://dashboard.render.com/blueprints this link.
-- Click `New Blueprint Instance` button.
-- Connect your `repo` which you want to deploy.
-- Fill the `Service Group Name` and click on `Update Existing Resources` button.
-- After that your deployment will start automatically.
-
-At this point, the product should be LIVE.
-
-<br />
-
-## [Django Soft Dashboard](https://appseed.us/product/soft-ui-dashboard-pro/django/) `PRO`
-
-This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design concept. `Soft UI Dashboard PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
-
-> Features: 
-
-- `Up-to-date Dependencies`
-- `Design`: [Django Theme Soft PRO](https://github.com/app-generator/django-admin-soft-pro) - `PRO Version`
-- `Sections` covered by the design:
-  - **Admin section** (reserved for superusers)
-  - **Authentication**: `Django.contrib.AUTH`, Registration
-  - **All Pages** available in for ordinary users 
-- `Docker`, `Deployment`:
-  - `CI/CD` flow via `Render`
-
-<br />
-
-![Soft UI Dashboard Pro](https://user-images.githubusercontent.com/51070104/211278814-881e0fcf-7986-4386-afee-540aa0f53bba.png)
-
-<br />
-
----
-[Django Soft Dashboard](https://appseed.us/product/soft-ui-dashboard/django/) - **Django** starter provided by **[AppSeed](https://appseed.us/)**
